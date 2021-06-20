@@ -1,0 +1,5 @@
+FROM amd64/ubuntu
+COPY malware $HOME
+RUN apt-get update && apt-get install -y gcc radare2 libc6
+RUN groupadd -g 2000 testgroup && useradd --no-log-init -m -u 2001 -g testgroup testuser
+USER testuser
