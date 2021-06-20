@@ -24,5 +24,3 @@ In <code>documents</code> you will find:
 In <code>scripts</code> you will find:
 - <code>run.py</code> - the main and only script for create the Isolation & Analysis Environment.
 - In <code>exmaple & helpful</code> sub-folder: read their <i>README</i> file for more help.
-<br></br>
-<code></code>
